@@ -1,6 +1,6 @@
 function ColorMyPencils(color)
---    color = color or "rose-pine-moon"
-    color = color or "dracula"
+    --    color = color or "rose-pine-moon"
+    color = color or "darcula-dark"
     vim.cmd.colorscheme(color)
 
     vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -85,6 +85,13 @@ return {
                 },
             })
         end
+    },
+    {
+        "xiantang/darcula-dark.nvim",
+        name="darcula-dark",
+        dependencies = {
+            "nvim-treesitter/nvim-treesitter",
+        },
     },
     { "Mofiqul/dracula.nvim",
         name="dracula",

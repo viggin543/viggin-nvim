@@ -69,3 +69,18 @@
 
 ## Tricks
 - bang bang) !! you write a shell command as a line in a vim buffer, then in normal mode, with the cursor on that line type !!, then type "sh" and Enter. The line will be executed as a command, and it will be replaced by the command output.
+
+
+
+## mini.ai
+-  i - > inside ( vif )
+-  a -> arorund ( vaf )
+- delete inside quotes :  diq  -- and its dot repetable
+- selecte inside quotes : viq "fooo isv a:"
+- above also holds for brakets ( q is for quotes, and b is for bracets )
+- via --- select current func attribute
+- vif --- slect current function
+- vi6 --- visually mark everything between two instances of 6
+- vibibibib -> to recursivley select inside bracets
+
+
