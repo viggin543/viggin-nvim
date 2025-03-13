@@ -60,6 +60,8 @@
 
 ## Refactoring
 - grep refactoring to get very kewl stuff
+- /Users/igordomrev/.local/share/nvim/lazy/refactoring.nvim -> module location
+
 
 
 ## Debugging
@@ -82,5 +84,25 @@
 - vif --- slect current function
 - vi6 --- visually mark everything between two instances of 6
 - vibibibib -> to recursivley select inside bracets
+
+
+
+## mini.surround
+- sa surround ad
+- sd surround delete
+- sh  surround highlight
+- sr surround replace
+- sawq  --> surround word with qotes
+- sawb --> surround word with brakets
+- sdq... --> delete surrounded quotes   "fooo"
+- saiwf : func foo  ---> bar ----> func foo(bar)
+
+
+
+## split window
+- :vs - split vertically
+- :split - horozontally split
+- <c-w>h -nav left
+- <c-w>l -nav right
 
 

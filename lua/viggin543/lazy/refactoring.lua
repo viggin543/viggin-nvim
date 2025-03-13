@@ -15,10 +15,18 @@ return  {
         vim.keymap.set("n", "<leader>rb", ":Refactor extract_block")
         vim.keymap.set("n", "<leader>rbf", ":Refactor extract_block_to_file")
 
+--        vim.keymap.set(
+--            {"n", "x"},
+--            "<leader>rr",
+--            function() require('refactoring').select_refactor({prefer_ex_cmd = true}) end
+--        )
+
+        require("telescope").load_extension("refactoring")
+
         vim.keymap.set(
             {"n", "x"},
             "<leader>rr",
-            function() require('refactoring').select_refactor({prefer_ex_cmd = true}) end
+            function() require('telescope').extensions.refactoring.refactors() end
         )
 
     end,
