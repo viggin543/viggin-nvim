@@ -99,10 +99,14 @@
 
 
 
-## split window
+
+## Tabs and windows
+- gt move to next tab
+- gT move to prev tab
+- <c-w>T   - new tab from current window
 - :vs - split vertically
 - :split - horozontally split
 - <c-w>h -nav left
 - <c-w>l -nav right
-
+- :fc! - close all floating windows
 
