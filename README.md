@@ -1,7 +1,7 @@
-
 # VIGGIN
 
 <!--toc:start-->
+
 - [VIGGIN](#viggin)
   - [BUFFERS](#buffers)
   - [MISC](#misc)
@@ -14,7 +14,8 @@
   - [FOLD](#fold)
   - [LAZYGIT](#lazygit)
   - [BLOCK INDENT](#block-indent)
-<!--toc:end-->
+  - [TMUX](#tmux)
+  <!--toc:end-->
 
 ## BUFFERS
 
@@ -45,7 +46,7 @@
 
 - i - } inside ( vif )
 - a -} arorund ( vaf )
-- delete inside quotes :  diq  -- and its dot repetable
+- delete inside quotes : diq -- and its dot repetable
 - selecte inside quotes : viq "fooo isv a:"
 - above also holds for brakets ( q is for quotes, and b is for bracets )
 - via --- select current func attribute
@@ -63,7 +64,7 @@
 - {c-o}, {c-i> and gd to navigate the code
 - You can pin buffers with {leader}bp and delete all non pinned buffers with {leader>bP
 - Add TODOs in files you want to work on in future
-    but don't need now and delete their buffers, git will track them
+  but don't need now and delete their buffers, git will track them
 
 ## KEYBINDINGS
 
@@ -82,3 +83,9 @@
 ## BLOCK INDENT
 
 - Vjj>
+
+## TMUX
+
+- {c-b}" - split horizintally
+- {c-b}% - split vertically
+- {c-b}up/down - jump arround
